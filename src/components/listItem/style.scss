@@ -1,0 +1,66 @@
+.list-item {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+
+    .header__title {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      position: relative;
+
+      .title-initials {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        font-size: 20px;
+        text-align: center;
+        color: #fff;
+        padding: 10px;
+        background-color: #9e751c;
+      }
+
+      .title-user-name {
+        color: #fff;
+        padding: 10px 40px;
+        background-color: #9e751c;
+        border-radius: 1rem;
+        position: absolute;
+        margin: 0 0 0 55px;
+      }
+    }
+
+    .delete-btn {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: #9e751c;
+    }
+  }
+
+  &__body {
+    width: 80%;
+    height: 70px;
+    box-shadow: 0px 163px 80px rgba(0, 0, 0, 0.04),
+      0px 105.648px 46.8519px rgba(0, 0, 0, 0.0303704),
+      0px 62.7852px 25.4815px rgba(0, 0, 0, 0.0242963),
+      0px 32.6px 13px rgba(0, 0, 0, 0.02),
+      0px 13.2815px 6.51852px rgba(0, 0, 0, 0.0157037),
+      0px 3.01852px 3.14815px rgba(0, 0, 0, 0.00962963);
+    background-color: #fbfe4ba1;
+    align-self: center;
+    padding: 50px 60px 50px 20px;
+    margin: 2.5rem;
+  }
+}

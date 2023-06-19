@@ -1,0 +1,34 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    255deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+
+  .comments-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+  }
+
+  .scroll-btns{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    
+    button{
+      padding: 20px 30px;
+      border-radius: 50px;
+      font-size: 28px;
+      background: rgba(255, 254, 254, 0.5);
+    }
+  }
+}
+
